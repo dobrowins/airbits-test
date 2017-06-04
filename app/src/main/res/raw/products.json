@@ -1,0 +1,16 @@
+[
+  { "name" : "Молоко", "type" : "milk_products" },
+  { "name" : "Моцарелла", "type" : "milk_products" },
+  { "name" : "Сгущенное молоко", "type" : "milk_products" },
+  { "name" : "Мороженое", "type" : "milk_products" },
+  { "name" : "Морковь", "type" : "fruits_and_vegetables" },
+  { "name" : "Лимон", "type" : "fruits_and_vegetables" },
+  { "name" : "Замороженные овощи", "type" : "fruits_and_vegetables" },
+  { "name" : "Лимонад", "type" : "drinks" },
+  { "name" : "Лимонная кислота советская как у бабушки", "type" : "drinks" },
+  { "name" : "Колбаски сырокопченые", "type" : "other" }
+]
+
+
+
+
