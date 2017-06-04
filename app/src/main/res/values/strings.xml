@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Airbits Test</string>
-    <string name="product_input_edittext_hint">Введите наименование продукта</string>
+    <string name="product_input_edittext_hint">Продукт : количество</string>
+    <string name="product_advice">Введите, например, "Молоко : 2 пакета",\n
+    Или выберите продукт из Словаря</string>
+    <string name="dictionary_title">Словарь продуктов</string>
     <string name="add_button_title">Добавить</string>
     <string name="qty_button_title">Количество</string>
 </resources>
