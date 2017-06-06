@@ -9,11 +9,14 @@
 
     <TextView
         android:id="@+id/food_item_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
         android:padding="@dimen/medium_view_margin"
         android:text="TextView"
         android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:gravity="center"
         />
 
 </RelativeLayout>
