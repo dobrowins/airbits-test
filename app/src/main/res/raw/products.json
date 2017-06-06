@@ -8,7 +8,8 @@
   { "name" : "Замороженные овощи", "type" : "fruits_and_vegetables" },
   { "name" : "Лимонад", "type" : "drinks" },
   { "name" : "Лимонная кислота советская как у бабушки", "type" : "drinks" },
-  { "name" : "Колбаски сырокопченые", "type" : "other" }
+  { "name" : "Колбаски сырокопченые", "type" : "other" },
+  { "name" : "Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz", "type" : "other" }
 ]
 
 
