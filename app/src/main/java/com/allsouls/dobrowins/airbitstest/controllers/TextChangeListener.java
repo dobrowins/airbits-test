@@ -43,7 +43,7 @@ public class TextChangeListener {
                 filteredList = new ArrayList<>();
                 for (int i = 0; i < arrayList.size(); i++) {
                     final String text = arrayList.get(i).toString().toLowerCase();
-                    if (text.contains(query)) {
+                    if (text.startsWith(query)) {
                         filteredList.add(arrayList.get(i));
                     }
                 }
