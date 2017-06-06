@@ -34,8 +34,16 @@ public class MainActivity extends AppCompatActivity {
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(productsArrayList);
         recyclerView.setAdapter(adapter);
 
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
+        GridLayoutManager layoutManager =
+                new GridLayoutManager(this, 2, GridLayoutManager.VERTICAL, false);
+        layoutManager.setSpanSizeLookup(
+                new GridLayoutManager.SpanSizeLookup() {
+                    @Override
+                    public int getSpanSize(int position) {
+                        return (position % 3 == 0 ? 2 : 1);
+                    }
+                }
+        );
 
         TextChangeListener listener = new TextChangeListener();
         listener.init(productInputEditText, recyclerView, productsArrayList);
